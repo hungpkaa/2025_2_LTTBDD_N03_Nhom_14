@@ -109,21 +109,21 @@ class _GroupInfoPageState extends State<GroupInfoPage> {
 
             /// MEMBERS
             memberCard(
-              "Nguyen Van A",
+              "Vu Tien Hung",
               text[lang]!["leader"]!,
-              "https://i.pravatar.cc/150?img=3",
+              "assets/images/ab12.jpg",
             ),
 
             memberCard(
-              "Tran Thi B",
+              "Vu Tien Hung ",
               text[lang]!["designer"]!,
-              "https://i.pravatar.cc/150?img=5",
+              "assets/images/ab13.jpg",
             ),
 
             memberCard(
-              "Le Van C",
+              "Vu Tien Hung  ",
               text[lang]!["dev"]!,
-              "https://i.pravatar.cc/150?img=8",
+              "assets/images/ab14.jpg",
             ),
 
             const SizedBox(height: 120),

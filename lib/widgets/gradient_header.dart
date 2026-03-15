@@ -69,7 +69,7 @@ class GradientHeader extends StatelessWidget {
 
               const CircleAvatar(
                 radius: 18,
-                backgroundImage: NetworkImage("assets/images/anh-meo-26.jpg"),
+                backgroundImage: AssetImage("assets/images/anh-meo-26.jpg"),
               ),
             ],
           ),

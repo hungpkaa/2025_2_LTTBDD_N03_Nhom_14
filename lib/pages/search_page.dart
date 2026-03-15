@@ -150,21 +150,12 @@ class _SearchPageState extends State<SearchPage> {
             crossAxisSpacing: 12,
 
             children: const [
-              CategoryCard(title: "Pop", image: "https://picsum.photos/300?1"),
-              CategoryCard(title: "Rock", image: "https://picsum.photos/300?2"),
-              CategoryCard(title: "Jazz", image: "https://picsum.photos/300?3"),
-              CategoryCard(
-                title: "Hip Hop",
-                image: "https://picsum.photos/300?4",
-              ),
-              CategoryCard(
-                title: "Indie",
-                image: "https://picsum.photos/300?5",
-              ),
-              CategoryCard(
-                title: "Classical",
-                image: "https://picsum.photos/300?6",
-              ),
+              CategoryCard(title: "Pop", image: "assets/images/ab18.jpg"),
+              CategoryCard(title: "Rock", image: "assets/images/ab16.jpg"),
+              CategoryCard(title: "Jazz", image: "assets/images/ab15.jpg"),
+              CategoryCard(title: "Hip Hop", image: "assets/images/ab19.jpg"),
+              CategoryCard(title: "Indie", image: "assets/images/ab20.jpg"),
+              CategoryCard(title: "Classical", image: "assets/images/ab17.jpg"),
             ],
           ),
           const SizedBox(height: 120),

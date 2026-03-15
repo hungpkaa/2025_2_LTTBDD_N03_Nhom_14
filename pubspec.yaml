@@ -74,6 +74,15 @@ flutter:
     - assets/images/ab9.jpg
     - assets/images/ab10.jpg
     - assets/images/ab11.jpg
+    - assets/images/ab12.jpg
+    - assets/images/ab13.jpg
+    - assets/images/ab14.jpg
+    - assets/images/ab15.jpg
+    - assets/images/ab16.jpg
+    - assets/images/ab17.jpg
+    - assets/images/ab18.jpg
+    - assets/images/ab19.jpg
+    - assets/images/ab20.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
