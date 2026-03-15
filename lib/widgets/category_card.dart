@@ -14,7 +14,7 @@ class CategoryCard extends StatelessWidget {
       child: Stack(
         children: [
           /// BACKGROUND IMAGE
-          Positioned.fill(child: Image.network(image, fit: BoxFit.cover)),
+          Positioned.fill(child: Image.asset(image, fit: BoxFit.cover)),
 
           /// GRADIENT OVERLAY
           Positioned.fill(

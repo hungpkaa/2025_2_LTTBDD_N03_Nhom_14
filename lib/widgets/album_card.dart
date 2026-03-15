@@ -44,7 +44,7 @@ class _AlbumCardState extends State<AlbumCard> {
                   /// IMAGE
                   ClipRRect(
                     borderRadius: BorderRadius.circular(14),
-                    child: Image.network(
+                    child: Image.asset(
                       widget.image,
                       width: 140,
                       height: 140,
