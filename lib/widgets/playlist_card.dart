@@ -30,7 +30,7 @@ class PlaylistCard extends StatelessWidget {
           child: Stack(
             children: [
               /// IMAGE
-              Positioned.fill(child: Image.network(image, fit: BoxFit.cover)),
+              Positioned.fill(child: Image.asset(image, fit: BoxFit.cover)),
 
               /// GRADIENT OVERLAY
               Positioned.fill(

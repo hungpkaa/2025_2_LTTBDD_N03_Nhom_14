@@ -144,10 +144,7 @@ class _GroupInfoPageState extends State<GroupInfoPage> {
         ),
 
         child: ListTile(
-          leading: CircleAvatar(
-            radius: 25,
-            backgroundImage: NetworkImage(image),
-          ),
+          leading: CircleAvatar(radius: 25, backgroundImage: AssetImage(image)),
 
           title: Text(
             name,

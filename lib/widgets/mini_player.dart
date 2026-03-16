@@ -78,7 +78,7 @@ class _MiniPlayerState extends State<MiniPlayer>
                     turns: controller,
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(6),
-                      child: Image.network(
+                      child: Image.asset(
                         song.imageUrl,
                         width: 45,
                         height: 45,

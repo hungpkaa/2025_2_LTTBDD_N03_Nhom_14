@@ -95,7 +95,7 @@ class _PlayerPageState extends State<PlayerPage>
                 turns: controller,
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(20),
-                  child: Image.network(
+                  child: Image.asset(
                     song.imageUrl,
                     height: 300,
                     width: 300,
